@@ -5,6 +5,8 @@ import android.os.Bundle;
 import android.util.Log;
 import android.widget.TextView;
 
+import com.rzk.test.testbranch.utils.CommonUtils;
+
 public class MainActivity extends AppCompatActivity {
 
     TextView mText;
@@ -18,6 +20,14 @@ public class MainActivity extends AppCompatActivity {
         mText.setText("主分支");
 
         onMasterBranch();
+        
+        onBranch1();
+    }
+
+    private void onBranch1() {
+        mText.setText("分支1");
+        Log.e(CommonUtils.TAG, "现在在分支1上开发");
+        Log.e(CommonUtils.TAG, "分支1开发完成");
     }
 
     private void onMasterBranch() {
