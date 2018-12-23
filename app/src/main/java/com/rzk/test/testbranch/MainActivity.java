@@ -34,6 +34,7 @@ public class MainActivity extends AppCompatActivity {
     private void onMasterBranch() {
         Log.e("rzk", "This is master branch");
         Log.e("rzk", "Begin branch2");
+        Log.e("rzk", "Fix master branch bugs");
     }
 
     private void onBranch2() {
