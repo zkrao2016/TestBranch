@@ -30,5 +30,6 @@ public class MainActivity extends AppCompatActivity {
     private void onBranch2() {
         mText.setText("分支2");
         Log.e("rzk", "This is branch2");
+        Log.e("rzk", "Branch2 complete");
     }
 }
