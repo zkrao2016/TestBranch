@@ -20,8 +20,9 @@ public class MainActivity extends AppCompatActivity {
         mText.setText("主分支");
 
         onMasterBranch();
-        
+
         onBranch1();
+        onBranch2();
     }
 
     private void onBranch1() {
@@ -33,5 +34,11 @@ public class MainActivity extends AppCompatActivity {
     private void onMasterBranch() {
         Log.e("rzk", "This is master branch");
         Log.e("rzk", "Begin branch2");
+    }
+
+    private void onBranch2() {
+        mText.setText("分支2");
+        Log.e("rzk", "This is branch2");
+        Log.e("rzk", "Branch2 complete");
     }
 }
