@@ -18,6 +18,13 @@ public class MainActivity extends AppCompatActivity {
         mText.setText("主分支");
 
         onMasterBranch();
+        
+        onBranch1();
+    }
+
+    private void onBranch1() {
+        mText.setText("分支1");
+        Log.e("", "现在在分支1上开发");
     }
 
     private void onMasterBranch() {
