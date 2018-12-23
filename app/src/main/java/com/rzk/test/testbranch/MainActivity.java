@@ -29,6 +29,7 @@ public class MainActivity extends AppCompatActivity {
         mText.setText("分支1");
         Log.e(CommonUtils.TAG, "现在在分支1上开发");
         Log.e(CommonUtils.TAG, "分支1开发完成");
+        Log.e(CommonUtils.TAG, "分支1再次开发");
     }
 
     private void onMasterBranch() {
