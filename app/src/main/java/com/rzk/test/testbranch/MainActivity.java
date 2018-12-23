@@ -21,6 +21,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void onMasterBranch() {
-        Log.e("", "This is master branch");
+        Log.e("rzk", "This is master branch");
+        Log.e("rzk", "Begin branch2");
     }
 }
