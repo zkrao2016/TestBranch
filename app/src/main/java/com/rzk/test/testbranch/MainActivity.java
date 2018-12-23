@@ -18,10 +18,17 @@ public class MainActivity extends AppCompatActivity {
         mText.setText("主分支");
 
         onMasterBranch();
+
+        onBranch2();
     }
 
     private void onMasterBranch() {
         Log.e("rzk", "This is master branch");
         Log.e("rzk", "Begin branch2");
+    }
+
+    private void onBranch2() {
+        mText.setText("分支2");
+        Log.e("rzk", "This is branch2");
     }
 }
